@@ -96,7 +96,7 @@ public class Part06RequestTest {
 				.verifyComplete();
 
 		assertThat(logConsole.toString())
-				.isEqualTo("Starring:\n"
+				.contains("Starring:\n"
 						+ "Skyler White\n"
 						+ "Jesse Pinkman\n"
 						+ "Walter White\n"
